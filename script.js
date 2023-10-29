@@ -11,7 +11,7 @@ const techItems = document.querySelectorAll('.tech-item');
 
 techItems.forEach(item => {
     const proficiencyBar = item.querySelector('.proficiency-bar');
-    const proficiencyLevel = proficiencyBar.style.width;
+    const proficiencyLevel = proficiencyBar.getAttribute('data-width');
     proficiencyBar.style.width = proficiencyLevel;
 });
 

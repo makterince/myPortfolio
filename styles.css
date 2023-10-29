@@ -31,8 +31,9 @@ nav a {
 }
 
 #home img {
-    border-radius: 50%;
+    border-radius: 10%;
     margin-bottom: 20px;
+    max-width: 50%
 }
 
 #home h1 {
@@ -85,7 +86,7 @@ nav a {
 }
 
 .bio-picture img {
-    max-width: 200px;
+    max-width: 50px;
     border-radius: 10px;
 }
 
